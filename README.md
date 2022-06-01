@@ -25,14 +25,18 @@ Prereqs: nodejs and npm
 
 To build:
 
+```
 $ git clone https://github.com/grkblood13/webpack-speex.git
 $ npm init -y
 $ npm install webpack webpack-cli --save-dev
 $ npm run build
+```
 
 To run:
 
+```
 npm install --global http-server
 cd dist
 http-server -p 8888
 google-chrome-stable index.html
+```
